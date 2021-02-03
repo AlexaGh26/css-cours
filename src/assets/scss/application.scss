@@ -1,0 +1,23 @@
+
+/* ______________________________________________________________________________________*
+// Base Styles
+// Archivos para restablecer los elementos del navegador, estilos que solo aplican -
+// a los elementos bases de la aplicación ( Elementos HTML )
+***______________________________________________________________________________________ */
+
+@import "base/index";
+
+/* _______________________________________________________________________________________*
+// Utilities Styles
+// Archivos de configuraciones con Sass Script ( Mixins, Funciones y Variables )
+***_______________________________________________________________________________________ */
+
+@import "utilities/index";
+
+/* ________________________________________________________________________________________*
+// Components Styles
+// Archivos con estilos aplicados a los componentes personalizados de la aplicación
+***_______________________________________________________________________________________ */
+
+@import "components/index";
+
