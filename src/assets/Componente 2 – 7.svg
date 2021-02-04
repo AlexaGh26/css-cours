@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141" height="57" viewBox="0 0 141 57">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #534f77;
+        stroke-linecap: square;
+        stroke-linejoin: bevel;
+        stroke-width: 4px;
+        font-size: 40px;
+        font-family: InkFree, Ink Free;
+        mix-blend-mode: color-burn;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <g id="Componente_2_7" data-name="Componente 2 – 7" transform="translate(4 4)">
+    <text id="BRAND" class="cls-1" transform="translate(1 36)"><tspan x="0" y="0">BRAND</tspan></text>
+  </g>
+</svg>
