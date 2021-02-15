@@ -1,0 +1,16 @@
+
+//global class for organizing elements with space-between
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 100%;
+}
+//menu icon size
+.menu {
+  width: 50px;
+}

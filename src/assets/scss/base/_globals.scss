@@ -1,43 +1,28 @@
 @import '../utilities/variables';
-
+//main container style of grid items
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 87px 1fr 1fr 1fr;
+  grid-template-rows: 87px repeat(3, 1fr);
   height: 100vh;
   width: 100vw;
-
 }
-
-
-@media (max-width: $break-point-mobile) {
-  @for $i from 1 to 13 {
-    @if $i > 4 {
-      .item:nth-of-type(#{$i}) {
-        display: none;
-      }
-    }
-    .item:nth-of-type(#{$i}) {
-      grid-column: 1/5;
-    }
-    .item:nth-of-type(1) {
-      display: flex;
-      justify-content: space-between;
-      padding: 15px;
-      background-color: $color-back-yellow-header;
-    }
-    .item:nth-of-type(2) {
-      background-color: $color-back-blue-darken;
-    }
-    .item:nth-of-type(3) {
-      background-color: $color-back-blue;
-    }
-    .item:nth-of-type(4) {
-      background-color: $color-back-blue-lingtheen;
-    }
-  }
+// product container styles
+.product-one {
+  padding: 30px;
 }
-
-.menu {
-  width: 50px;
+.container-product {
+  background-color: white;
+  width: 427px;
+  height: 500px;
+  padding: 10px;
+  margin: auto;
+}
+.title {
+  font-size: 35px;
+  color: $color-text-yellow;
+  font-family: 'OpenSansBold', sans-serif;
+}
+.img-product{
+  width: 282px;
 }

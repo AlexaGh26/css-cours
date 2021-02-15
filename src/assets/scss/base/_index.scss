@@ -11,4 +11,6 @@ Estilos globales no encapsulados
 ********************************* */
 @import './globals';
 
-@import '../utilities/variables'
+@import '../utilities/variables';
+
+@import './breakpoints';

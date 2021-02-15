@@ -1,0 +1,27 @@
+
+// breakpoint mobile
+@media (max-width: $break-point-mobile) {
+  @for $i from 1 to 12 {
+    @if $i > 4 {
+      .item:nth-of-type(#{$i}) {
+        display: none;
+      }
+    }
+    .item:nth-of-type(#{$i}) {
+      grid-column: 1/5;
+    }
+    .item:nth-of-type(1) {
+      background-color: $color-back-yellow-header;
+    }
+    .item:nth-of-type(2) {
+      background-color: $color-back-blue-darken;
+    }
+    .item:nth-of-type(3) {
+      background-color: $color-back-blue;
+    }
+    .item:nth-of-type(4) {
+      background-color: $color-back-blue-lingtheen;
+    }
+
+  }
+}

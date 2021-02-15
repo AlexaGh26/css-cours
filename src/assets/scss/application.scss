@@ -7,13 +7,6 @@
 
 @import "./base/index";
 
-/* _______________________________________________________________________________________*
-// Utilities Styles
-// Archivos de configuraciones con Sass Script ( Mixins, Funciones y Variables )
-***_______________________________________________________________________________________ */
-
-@import "utilities/index";
-
 /* ________________________________________________________________________________________*
 // Components Styles
 // Archivos con estilos aplicados a los componentes personalizados de la aplicación
@@ -21,3 +14,9 @@
 
 @import "components/index";
 
+/* _______________________________________________________________________________________*
+// Utilities Styles
+// Archivos de configuraciones con Sass Script ( Mixins, Funciones y Variables )
+***_______________________________________________________________________________________ */
+
+@import "utilities/index";

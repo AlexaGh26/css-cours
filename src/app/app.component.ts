@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'responsive';
+  items:Array<any> = [1,2,3,4,5,6,7,8,9,10,11,11];
+
 }
-const items = [1,2,3,4,5,6,7,8,9,10,11,12]
+

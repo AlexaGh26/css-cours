@@ -1,0 +1,17 @@
+//add font OpenSans Regular
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans'),
+       url('../../fonts/Open\ Sans/OpenSans-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+//add font OpenSans Bold
+@font-face {
+  font-family: 'OpenSansBold';
+  src: local('OpenSansBold'),
+       url('../../fonts/Open\ Sans/OpenSans-SemiBold.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
