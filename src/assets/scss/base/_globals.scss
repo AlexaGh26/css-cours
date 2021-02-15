@@ -7,22 +7,37 @@
   height: 100vh;
   width: 100vw;
 }
+
 // product container styles
 .product-one {
   padding: 30px;
 }
 .container-product {
   background-color: white;
-  width: 427px;
-  height: 500px;
-  padding: 10px;
+  width: 90%;
+  height: 90%;
+  padding: 30px;
   margin: auto;
+  box-sizing: border-box;
 }
-.title {
-  font-size: 35px;
+.product-title {
+  font-size:2rem;
   color: $color-text-yellow;
   font-family: 'OpenSansBold', sans-serif;
+  margin: 5px 0 ;
+}
+.product-description {
+  font-family: 'OpenSansBold', sans-serif;
+  font-size: 1rem;
+  color: $color-text-yellow;
 }
 .img-product{
-  width: 282px;
+  width: 80%;
+}
+.products-button{
+  width: 100%;
+  height: 50px;
+  background-color: $color-buttom-blue;
+  color: white;
+  font-size: 2rem;
 }
