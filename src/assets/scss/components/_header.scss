@@ -16,9 +16,11 @@
 
 //menu icon size
 #img-logo {
-  width: $img-size-logo;
+  width: $img-width-logo;
 }
 #img-menu {
-  width: $img-size-menu;
+  width: $img-width-menu;
+  height: $img-height-menu;
+  margin-top: 0.2rem;
 }
 

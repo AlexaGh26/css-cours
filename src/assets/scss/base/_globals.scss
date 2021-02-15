@@ -1,4 +1,5 @@
 @import '../utilities/variables';
+
 //main container style of grid items
 .container {
   display: grid;
@@ -8,13 +9,11 @@
   width: 100vw;
 }
 
-// product container styles
-.product-one {
+// styles product components
+.products {
   padding: 1rem;
 }
-.product-two {
-  padding: 1rem;
-}
+
 .container-product {
   background-color: white;
   width: 90%;
@@ -45,6 +44,7 @@
 }
 .img-product-two{
   width: 60%;
+  margin: 12%;
 }
 .products-button{
   width: 100%;
@@ -68,3 +68,11 @@
   @extend .product-description;
   color: $color-buttom-blue;
 }
+.help-button{
+  @extend .products-button;
+}
+.img-help {
+  @extend .img-product;
+}
+
+

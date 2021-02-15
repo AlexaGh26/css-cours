@@ -1,7 +1,7 @@
 
-// breakpoint mobile
 @media (max-width: $break-point-mobile) {
-  @for $i from 1 to 12 {
+
+  @for $i from 1 to 13 {
     @if $i > 4 {
       .item:nth-of-type(#{$i}) {
         display: none;
