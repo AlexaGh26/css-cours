@@ -54,3 +54,17 @@
   font-size: 1.2rem;
   cursor: pointer;
 }
+
+//styles help component
+.container-help {
+  @extend .container-product;
+  background-color: transparent;
+}
+.help-title {
+  @extend .product-title;
+  color: $color-buttom-blue;
+}
+.help-description{
+  @extend .product-description;
+  color: $color-buttom-blue;
+}
