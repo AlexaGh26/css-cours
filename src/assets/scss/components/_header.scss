@@ -3,14 +3,22 @@
 .container-header {
   display: flex;
   justify-content: space-between;
-  padding: 15px 30px;
+  padding: 1rem 2rem;
   margin: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
 }
 .header {
   width: 100%;
   height: 100%;
 }
+
 //menu icon size
-.menu {
-  width: 50px;
+#img-logo {
+  width: $img-size-logo;
 }
+#img-menu {
+  width: $img-size-menu;
+}
+

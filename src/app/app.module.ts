@@ -7,6 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SectionHelpComponent } from './components/section-help/section-help.component';
 import { ProductOneComponent } from './components/product-one/product-one.component';
 import { ProductTwoComponent } from './components/product-two/product-two.component';
+import {textApp} from '../assets/utils/const.js';
 
 @NgModule({
   declarations: [
@@ -14,11 +15,12 @@ import { ProductTwoComponent } from './components/product-two/product-two.compon
     HeaderComponent,
     SectionHelpComponent,
     ProductOneComponent,
-    ProductTwoComponent
+    ProductTwoComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
