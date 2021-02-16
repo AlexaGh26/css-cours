@@ -1,5 +1,38 @@
+//brakpoint tablet
+@media (min-width: $break-point-mobile) {
 
-@media (max-width: $break-point-mobile) {
+  #img-logo {
+    margin-left: -50px;
+  }
+  //styles help component
+  .container-help {
+    position: relative;
+  }
+  .help-title {
+    color: $color-buttom-blue;
+    position: relative;
+    top: 30px;
+  }
+  .help-description {
+    font-size: 1rem;
+    width: $img-width-help + 10%;
+    position: relative;
+    top: -180px;
+    right: -162px;
+
+  }
+  .help-button {
+    width: $img-width-help - 10%;
+    position: relative;
+    top: -141px;
+    right: -126px;
+  }
+  .img-help {
+    width: $img-width-help;
+    position: relative;
+    top: 50px;
+    left: -180px;
+  }
 
   @for $i from 1 to 13 {
     @if $i > 4 {
@@ -7,21 +40,15 @@
         display: none;
       }
     }
-    .item:nth-of-type(#{$i}) {
-      grid-column: 1/5;
+    @if $i == 2 {
+      .item:nth-of-type(#{$i}) {
+        grid-column: 1/3;
+      }
     }
-    .item:nth-of-type(1) {
-      background-color: $color-back-yellow-header;
+    @if $i == 3 {
+      .item:nth-of-type(#{$i}) {
+        grid-column: 3/5;
+      }
     }
-    .item:nth-of-type(2) {
-      background-color: $color-back-blue-darken;
-    }
-    .item:nth-of-type(3) {
-      background-color: $color-back-blue;
-    }
-    .item:nth-of-type(4) {
-      background-color: $color-back-blue-lingtheen;
-    }
-
   }
 }

@@ -1,5 +1,5 @@
 export let textApp = {
-    tittleProductOne: 'Sahampoo',
+    tittleProductOne: 'Shampoo',
     tittleProductTwo: 'Pelota',
     tittleHelp: 'Nosotros le ayudamos !',
     descriptionProducts : 'Miles de productos hay en el mercado, pero nada como caja con gaticos.',
