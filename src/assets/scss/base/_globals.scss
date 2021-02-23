@@ -3,7 +3,6 @@
 //main container style of grid items
 .container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 87px repeat(3, 1fr);
   height: 100vh;
   width: 100vw;
@@ -11,9 +10,9 @@
 
 // styles product components
 .products {
-  padding: 1rem;
+  padding-top: 2rem;
+  height: 100%;
 }
-
 .container-product {
   background-color: white;
   width: 90%;
@@ -26,6 +25,7 @@
   justify-content: center;
   align-items: center;
 }
+
 .product-title {
   font-size:1.8rem;
   color: $color-text-yellow;
@@ -38,13 +38,20 @@
   color: $color-text-yellow;
   margin: 1rem 0;
 }
-
+.img-container {
+  height: 60%;
+  width: 100%;
+}
 .img-product{
-  width: 80%;
+  width: 100%;
+  height: 100%;
 }
 .img-product-two{
-  width: 60%;
-  margin: 12%;
+  width: 80%;
+  height: 80%;
+  padding: 10%;
+  box-sizing: border-box;
+  margin: 10%;
 }
 .products-button{
   width: 100%;
@@ -76,15 +83,7 @@
 }
 
 //basic styles
-@for $i from 1 to 13 {
-  @if $i > 4 {
-    .item:nth-of-type(#{$i}) {
-      display: none;
-    }
-  }
-  .item:nth-of-type(#{$i}) {
-    grid-column: 1/5;
-  }
+
   .item:nth-of-type(1) {
     background-color: $color-back-yellow-header;
   }
@@ -98,5 +97,4 @@
     background-color: $color-back-blue-lingtheen;
   }
 
-}
 
