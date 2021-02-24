@@ -1,0 +1,51 @@
+//styles help component
+
+.help {
+  display: grid;
+  background-color: $color-back-blue-lingtheen;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50px 1fr 0.2fr;
+  grid-template-areas: " title title"
+                        "img   img"
+                         "description description";
+  padding: 1.5rem;
+}
+.title {
+  grid-area: title;
+  width: 100%;
+  align-self: center;
+}
+.img {
+  @extend .title;
+  grid-area: img;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.description {
+  @extend .title;
+  grid-area: description;
+  padding: 1rem 0;
+}
+
+.container-help {
+  @extend .container-product;
+  background-color: transparent;
+}
+.help-title {
+  @extend .product-title;
+  color: $color-buttom-blue;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.help-description{
+  @extend .product-description;
+  color: $color-buttom-blue;
+  font-size: 1rem;
+}
+.help-button{
+  @extend .products-button;
+}
+.img-help {
+  @extend .img-product;
+}

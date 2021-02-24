@@ -1,6 +1,22 @@
 //brakpoint tablet
 @media (min-width: $break-point-mobile) {
 
+  .help {
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: " img title"
+                          "img   description";
+  }
+  .help-title {
+    font-size: 2rem;
+  }
+  .help-description{
+    font-size: 1.2rem;
+    margin: 1.5rem 0;
+  }
+  .img-help {
+    width: 70%;
+    height: 70%;
+  }
 
     .item:nth-of-type(1) {
       background-color: $color-back-yellow-header;
@@ -15,7 +31,7 @@
       grid-column: 3/5;
     }
     .item:nth-of-type(4) {
-      background-color: $color-back-blue-lingtheen;
       grid-column: 1/5;
+
     }
 }

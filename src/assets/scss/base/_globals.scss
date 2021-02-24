@@ -3,7 +3,7 @@
 //main container style of grid items
 .container {
   display: grid;
-  grid-template-rows: 87px repeat(3, 1fr);
+  grid-template-rows: 100px repeat(3, 1fr);
   height: 100vh;
   width: 100vw;
 }
@@ -62,25 +62,6 @@
   cursor: pointer;
 }
 
-//styles help component
-.container-help {
-  @extend .container-product;
-  background-color: transparent;
-}
-.help-title {
-  @extend .product-title;
-  color: $color-buttom-blue;
-}
-.help-description{
-  @extend .product-description;
-  color: $color-buttom-blue;
-}
-.help-button{
-  @extend .products-button;
-}
-.img-help {
-  @extend .img-product;
-}
 
 //basic styles
 
@@ -95,6 +76,7 @@
   }
   .item:nth-of-type(4) {
     background-color: $color-back-blue-lingtheen;
+
   }
 
 
